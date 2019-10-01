@@ -1,7 +1,7 @@
 ---
 version: "2"
 services:
-  cmp-airflow-scheduler:
+  {{cookiecutter.repo_name}}:
     build:
       context: .
       dockerfile: Dockerfile
