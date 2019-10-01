@@ -13,10 +13,10 @@ from pathlib import Path
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = {{module_name}}
-DESCRIPTION = {{project_short_description}}
-URL = {{repo_name}}
-EMAIL = {{email}}
+NAME = {{cookiecutter.module_name}}
+DESCRIPTION = {{cookiecutter.project_short_description}}
+URL = {{cookiecutter.repo_name}}
+EMAIL = {{cookiecutter.email}}
 AUTHOR = "Software Engineer"
 REQUIRES_PYTHON = ">=3.7.0"
 VERSION = None
