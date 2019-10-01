@@ -1,0 +1,18 @@
+---
+version: "2"
+services:
+  cmp-airflow-scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /opt/{{cookiecutter.repo_name}}
+    environment:
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY
+      - AWS_DEFAULT_REGION
+      - PYTHONPATH=/opt/{{cookiecutter.repo_name}}
+      - ENV=dev
+    volumes:
+      - .:/opt/{{cookiecutter.repo_name}}
+    ports:
+      - "8080:8080"
