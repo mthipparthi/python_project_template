@@ -92,3 +92,4 @@ ENV/
 
 #pytest
 .pytest_cache/
+.history
