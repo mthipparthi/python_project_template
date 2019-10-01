@@ -2,6 +2,6 @@
   "full_name": "Audrey Roy",
   "email": "audreyr@gmail.com",
   "repo_name": "ds-my-repo",
-  "cookiecutter.module_name": "mypackage",
+  "module_name": "mypackage",
   "project_short_description": "Refreshingly simple static site generator."
 }
