@@ -13,7 +13,7 @@ from pathlib import Path
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = {{cookiecutter.module_name}}
+NAME = {{cookiecutter.cookiecutter.module_name}}
 DESCRIPTION = {{cookiecutter.project_short_description}}
 URL = {{cookiecutter.repo_name}}
 EMAIL = {{cookiecutter.email}}

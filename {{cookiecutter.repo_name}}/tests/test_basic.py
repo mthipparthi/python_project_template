@@ -1,6 +1,6 @@
-from context import {{module_name}}
+from context import {{cookiecutter.module_name}}
 
 
 def test_add():
-    assert {{module_name}}.my_add(10, 20) == 30
+    assert {{cookiecutter.module_name}}.my_add(10, 20) == 30
 
