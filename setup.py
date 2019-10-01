@@ -13,11 +13,11 @@ from pathlib import Path
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = "mypackage"
-DESCRIPTION = "My short description for my project."
-URL = "https://github.com/me/myproject"
-EMAIL = "mahesh.thipparthi@gmail.com"
-AUTHOR = "Data Engineer"
+NAME = {{project_name}}
+DESCRIPTION = {{project_short_description}}
+URL = {{repo_name}}
+EMAIL = {{email}}
+AUTHOR = "Software Engineer"
 REQUIRES_PYTHON = ">=3.7.0"
 VERSION = None
 
