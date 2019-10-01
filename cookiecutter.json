@@ -1,7 +1,11 @@
 {
   "full_name": "Audrey Roy",
   "email": "audreyr@gmail.com",
-  "project_name": "mypackage",
   "repo_name": "ds-my-repo",
+  "module_name": "mypackage",
   "project_short_description": "Refreshingly simple static site generator."
 }
+
+
+
+
