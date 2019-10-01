@@ -13,7 +13,7 @@ from pathlib import Path
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = {{project_name}}
+NAME = {{module_name}}
 DESCRIPTION = {{project_short_description}}
 URL = {{repo_name}}
 EMAIL = {{email}}

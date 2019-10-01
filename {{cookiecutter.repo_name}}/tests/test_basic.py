@@ -1,6 +1,6 @@
-from context import {{project_name}}
+from context import {{module_name}}
 
 
 def test_add():
-    assert {{project_name}}.my_add(10, 20) == 30
+    assert {{module_name}}.my_add(10, 20) == 30
 
